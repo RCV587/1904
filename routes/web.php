@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('index',function(){  //测试
+    echo '成功';
+});
